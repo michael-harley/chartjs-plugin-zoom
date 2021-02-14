@@ -17,7 +17,8 @@
     "lint": "eslint samples/**/*.html test/**/*.js src/**/*.js",
     "test": "concurrently \"npm:test-*\"",
     "test-lint": "npm run lint",
-    "test-karma": "karma start --auto-watch --single-run --coverage --grep"
+    "test-karma": "karma start --auto-watch --single-run --coverage --grep",
+    "prepare": "npm run build"
   },
   "files": [
     "dist/*.js"
